@@ -1,9 +1,10 @@
 // Copyright 2026 AnastasiaLos
 
 #include <gtest/gtest.h>
-#include "textgen.h"
 #include <vector>
 #include <fstream>
+#include <string>
+#include "textgen.h"
 
 class MarkovTest : public ::testing::Test {
  protected:
