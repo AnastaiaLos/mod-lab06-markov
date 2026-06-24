@@ -8,6 +8,7 @@
 #include <ctime>
 #include <vector>
 #include <string>
+#include <cctype>
 
 MarkovTextGenerator::MarkovTextGenerator(int npref, int maxgen)
     : npref(npref), maxgen(maxgen), rng(std::time(nullptr)) {}
