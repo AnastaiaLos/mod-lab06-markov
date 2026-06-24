@@ -4,6 +4,7 @@
 #include <vector>
 #include <fstream>
 #include <string>
+#include <cstdio>
 #include "textgen.h"
 
 class MarkovTest : public ::testing::Test {
